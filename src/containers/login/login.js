@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import { Layout, Form, Icon, Input, Button, Checkbox } from 'antd';
 
-import classes from './login.css';
+import  './login.css';
 
 
 const {Header, Footer} = Layout;
@@ -15,7 +15,7 @@ class NormalLoginForm extends Component {
       }
     });
   };
-  handleGoRegister() {
+  handleDashboard() {
     this.props.history.push('/Dashboard');
 }
 
@@ -55,7 +55,7 @@ class NormalLoginForm extends Component {
           <a className="login-form-forgot" href="">
             Forgot password
           </a>
-          <Button className="login-form-button" onClick={this.handleGoRegister.bind(this)} type="primary">
+          <Button className="login-form-button" onClick={this.handleDashboard.bind(this)} type="primary">
             Log In</Button>
           Or <a href="">register now!</a>
           

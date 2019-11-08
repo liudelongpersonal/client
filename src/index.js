@@ -26,7 +26,6 @@ import AdminRegister from './containers/adminregister/adminregister';
 
 // generate store
 import reducer from './reducers';
-import 'antd/dist/antd.css'
 
 
 const store = createStore(reducer, compose(
