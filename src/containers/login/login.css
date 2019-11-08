@@ -1,0 +1,25 @@
+@import '../../../node_modules/antd/dist/antd.css';
+
+.login-from-wrap{
+    margin: 30px auto;
+    width: 500px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    box-shadow: 1cm;
+}
+
+.login-form {
+
+  max-width: 300px;
+  margin: 30px auto 15px;
+  
+  
+}
+.login-form-forgot {
+  float: right;
+}
+
+.login-form-button {
+  width: 100%;
+}
