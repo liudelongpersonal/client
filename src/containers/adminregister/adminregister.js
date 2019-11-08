@@ -40,9 +40,6 @@ class AdminRegister extends Component {
         )
     }
 
-    /*
-    *     绑定表单值
-    * */
     handleChange(key, val) {
         this.setState({
             [key]: val

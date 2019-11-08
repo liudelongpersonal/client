@@ -23,7 +23,7 @@ class NormalLoginForm extends Component {
     const { getFieldDecorator } = this.props.form;
     return (
         <div>
-    <Header></Header>
+    <Header style = {{ margin: "top"}} />
     <div className = "login-from-wrap">
       <Form onSubmit={this.handleSubmit} className="login-form">
         <Form.Item>
@@ -64,7 +64,7 @@ class NormalLoginForm extends Component {
         </Form.Item>
       </Form>
       </div>
-      <Footer></Footer>
+      <Footer style = {{ margin: "bottom"}} ></Footer>
       </div>
     );
   }
